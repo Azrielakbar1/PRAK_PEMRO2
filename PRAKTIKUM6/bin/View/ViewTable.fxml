@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:controller="Controller.CRUD" 
+      xmlns:fx="http://javafx.com/fxml" 
+      alignment="CENTER" spacing="10.0" 
+      prefHeight="400.0" prefWidth="300.0">
+    
+    <children>
+        <TableView fx:id="tabelMahasiswa" prefHeight="350.0" prefWidth="300.0">
+            <columns>
+                <TableColumn fx:id="kolomNim" prefWidth="100.0" text="NIM" />
+                <TableColumn fx:id="kolomNama" prefWidth="200.0" text="Nama" />
+            </columns>
+        </TableView>
+    </children>
+</VBox>
